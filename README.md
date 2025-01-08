@@ -23,3 +23,12 @@
 > **OMDB_API_KEY**: [!Note]- 4a41b347
 
 > **_NOTE:_** You can find the star.svg and filled-star.svg in public folder, to store the rating you can use localstorage.
+
+
+InterviewerComment :-
+only *On Star Rating Dialogue* left because i am using material-ui popup and it gives some modules error and then i try to create my own popup in Cart2 component but unable to do so.
+i know the logic how it works i.e->
+when click on rating star button and to rate the movie will use css to render filled stars and onClick button to save the rating of movies and store it in any variable using useState or by creating redux store with other necessary details of movies.
+and when view the rating using data stored value to render the rating.
+
+Thanks.

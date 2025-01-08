@@ -4,12 +4,12 @@ import { useState } from "react";
 import FilledStar from "../../assets/filled-star.svg";
 import EmptyStar from "../../assets/star.svg";
 // import Popup from "../Popup/Popup";
+// import Popup from "../Popup/Popup";
 
 const Card2 = ({data}) => {
 
-    const [openRating, setOpenRating] = useState(false);
+    // const [openRating, setOpenRating] = useState(false);
 
-    console.log(openRating)
     return (
         <>
             <div className="card-container">
@@ -31,19 +31,20 @@ const Card2 = ({data}) => {
                         </div>
                     ))
                 }
-                {
+                {/* {
                     openRating && (
-                        <div id="popup1" className="overlay">
-                           <div className="popup">
-                                <h2>ssjdhjdh</h2>
-                                <a className="close" href="#">&times;</a>
-                                <div className="content">
-                                    <p></p>
-                                </div>
-                            </div>
-                        </div>
+                        // <div id="popup1" className="overlay">
+                        //    <div className="popup">
+                        //         <h2>ssjdhjdh</h2>
+                        //         <a className="close" href="#">&times;</a>
+                        //         <div className="content">
+                        //             <p></p>
+                        //         </div>
+                        //     </div>
+                        // </div>
+                        <Popup />
                     )
-                }
+                } */}
             </div>
             
         </>

@@ -1,7 +1,7 @@
 /* eslint-disable react/prop-types */
 
 import FilledStar from "../../assets/filled-star.svg";
-import EmptyStar from "../../assets/star.svg"
+// import EmptyStar from "../../assets/star.svg"
 
 const Card = ({data}) => {
     return (

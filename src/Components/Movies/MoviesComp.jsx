@@ -16,7 +16,7 @@ const MoviesComp = ()=> {
         })
     },[])
 
-    console.log("1",movies2024)
+    // console.log("1",movies2024)
 
     return(
         <>
